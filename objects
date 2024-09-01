@@ -1,0 +1,12 @@
+function HouseKeeper (name, age,previousWorkPlace, favoriteTask){
+    this.name = name;
+    this.age = age;
+    this.previousWorkPlace = previousWorkPlace;
+    this.favoriteTask = favoriteTask;
+    this.clean = function (){
+        alert("Cleaning in progress");
+    }
+}
+var houseKeeper1 = new HouseKeeper("Timothy", 20, "clinic","cleaning");
+houseKeeper1.clean();
+
